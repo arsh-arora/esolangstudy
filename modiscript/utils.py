@@ -1,7 +1,7 @@
 PROGRAM = "MODI"
 FNF = 404
 MISQUOTE = 500
-STARTING_TROUBLE = 'Go listen to Modi'
+STARTING_TROUBLE = 'Go lzisten to Modi'
 CONGRESS_RULE = 'Acche din nahi aaye'
 ERROR = "Oops. Are you sure you're right?"
 
@@ -40,13 +40,14 @@ LEX = {
     'false': 105
 }
 
-WORDS = {
-    "nahin": "nahi",
+WORDS = { # change this
+    "nahin": "nahi", # CHANGE THESE
     "tho": "toh",
     "bhayyo": "bhaiyo",
     "beheno": "behno",
     "thak": "tak",
-    "jyada": "zyada"
+    "jyada": "zyada",
+    "ahista": "aahista"
 }
 
 

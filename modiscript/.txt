@@ -1,0 +1,13 @@
+{'lex': 100, 'value': 'up', 'line': 2, 'offset': 0}
+{'lex': 102, 'value': 'bjp governed state hai', 'line': 2, 'offset': 3}
+{'lex': 100, 'value': 'sp', 'line': 3, 'offset': 0}
+{'lex': 102, 'value': 'opposition me hai', 'line': 3, 'offset': 3}
+{'lex': 40, 'value': None, 'line': 4, 'offset': 0}
+{'lex': 100, 'value': 'ye', 'line': 4, 'offset': 5}
+{'lex': 104, 'value': None, 'line': 4, 'offset': 8}
+{'lex': 50, 'value': None, 'line': 4, 'offset': 13}
+{'lex': 44, 'value': None, 'line': 5, 'offset': 1}
+{'lex': 102, 'value': 'mandir wahin banayenge', 'line': 5, 'offset': 18}
+{'lex': 42, 'value': None, 'line': 6, 'offset': 0}
+{'lex': 44, 'value': None, 'line': 7, 'offset': 1}
+{'lex': 102, 'value': 'mandir to wahin banega', 'line': 7, 'offset': 18}

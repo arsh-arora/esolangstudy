@@ -1,5 +1,5 @@
 from ast import *
-from .utils import LEX, ErrorHandler, ERROR, CONGRESS_RULE
+from .utils import LEX, ErrorHandler, ERROR
 
 
 class Parser:
@@ -42,6 +42,7 @@ class Parser:
         if lexeme['lex'] == LEX['until']:
             return self._analyze_until(num)
         if lexeme['lex'] == LEX['print']:
+            
             return self._analyze_print(num)
         if lexeme['lex'] == LEX['input']:
             return self._analyze_input(num)
@@ -56,7 +57,7 @@ class Parser:
             num, node = self._analyze(num)
             if node is not None:
                 code.append(node)
-        return Module(body=code, **self._debug_details(0))
+        return Module(body=code, **self._debug_details(0),type_ignores=[])
 
     def _analyze_assign(self, num):
         if num + 1 < self.length:
